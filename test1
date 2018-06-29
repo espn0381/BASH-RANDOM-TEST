@@ -1,0 +1,12 @@
+#!/bin/bash
+
+_0=("Mami"  "Bebe"  "Princesa"  "Mami")
+_1=("Yo quiero, " "Yo puedo, "  "Yo vengo a," "Voy a, ")
+_2=("Encenderte"  "Amarte"  "Ligar"  "Jugar")
+_3=("Suave"  "Lento"  "Rapido"  "Fuerte")
+_4=("Hasta que salga el sol " "Toda la noche "  "Hasta el amanecer "  "Todo el dia ")
+_5=("Sin anestecia " "Sin compromiso " "Feis to feis " "Sin Miedo ")
+
+c=$(( $RANDOM % 4 ))
+b=_$(( $RANDOM % 6 ))[c]
+echo ${!b}
